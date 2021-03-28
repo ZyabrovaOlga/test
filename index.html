@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziabrova Olga</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img class="header__logo" src="img/logo.png" alt="logo">
+        <h1 class="header__title title">
+            Я - разработчик!
+        </h1>
+    </header>
+
+    <section class="about">
+
+        <h3 class="about__title">
+            Расскажите о себе
+        </h3>
+
+        <div class="about__desc">
+            <div class="about__decs-text subtitle">
+                Поля не являются обязательными, но помимо вашего имени, нам хотелось бы знатьиз какого вы города, сколько вам лет и как с вами связаться
+            </div>
+            <div class="about__desc-form">
+                <form action="/" method="post" enctype="multipart/form-data">
+                    <div class="about__info">
+                        <input class="info" type="text" name="name" value="Зяброва Ольга Алкесеевна" placeholder="Имя" >
+                    </div>
+                    <div class="about__info">
+                        <input class="info" type="text" name="date" value="17 августа 1997" placeholder="Год рождения">
+                    </div>
+                    <div class="about__info">
+                        <input class="info" type="text" name="city" value="Красноярск" placeholder="Город">
+                    </div>
+                    <div class="about__info">
+                        <input class="info" type="tel" name="tel" value="+79029290547" placeholder="Телеграм">
+                    </div>
+                    <div class="about__info">
+                        <input class="info" type="mail" name="mail" value="ingasholga@gmail.com" placeholder="Почта">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="skills">
+
+        <h3 class="skills__title">
+            Отметьте ваши навыки
+        </h3>
+
+        <div class="skills__unit">
+        <div class="skills__desc subtitle">
+            Отметьте чекбоксами пункты, которые соответсвуют вашим скиллам. Кстати, отсутствие опыта не означаает, что у вас меньше шансов стать олним из наших товарищей. Это означает, что вы будете получать задачи, с которыми гарантированно будете справляться.
+        </div>
+        
+        <div class="skills__list">
+        <div class="skills__list-1">
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        БЭМ/OOCSS
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Pug (Jade)
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Stylus/LESS/SAAS
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Работаю с SVG
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        Верстаю семантично
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Accessibility (A11Y)
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        ES2015/ES2016
+                 </label>
+            </div> 
+            <div class="skills__list-3">
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                       Использую Git
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        С глазомером все ок
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Я ленивая
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        У меня хороший английский
+                 </label>
+            </div>
+        </div>
+        </div>
+
+        <div class="skills__list-2">
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        Gulp/GRUNT
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        Webpack
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Дружу с WedGL
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                       jQuery
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox">
+                        Знаю/Изучаю Angular
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked >
+                        Знаю/Изучаю React
+                 </label>
+            </div>
+            <div>
+                <label>
+                    <input class="item" type="checkbox" checked>
+                        Знаю/Изучаю Node.js
+                 </label>
+            </div>
+        </div>
+
+       
+        </div>
+        </div>
+
+    </section>
+
+    <section class="level">
+
+        <h3 class="level__title">
+            Уровень владения JaveScript
+        </h3>
+
+        <div class="level__slide">
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <div class="level__desc">
+            <div class="desc">
+                Не владею
+            </div>
+            <div class="desc">
+                Использую готовые решения
+            </div>
+            <div class="desc">
+                Использую готовые решения, умею их переделывать
+            </div>
+            <div class="desc">
+                Пишу сложный JS с нуля
+            </div>
+        </div>
+
+    </section>
+
+    <section class="text">
+
+        <h3 class="text__title title">
+            Расскажите о себе словами
+        </h3>
+
+        <div class="text__about">
+            <div class="text__desc subtitle">
+                Напишите пару предложений, чем вас привлекла наша ваканиия и чего вы ожидаете от работы в ProektMarketing. Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.
+            </div>
+
+            <div class="text__area">
+                <textarea name="about" cols="70" rows="20">Ваша компания не только дает работу, но и помощь в развитии, которое очень важно для каждого человека. Так как у меня нет официального опыта работы и я начинающий разработчик, для меня важно окружить себя людьми. Данная вакансия привлекла возможностью обучения и развития в области веб-разработки.
+                </textarea>
+            </div>
+        </div>
+        
+
+    </section>
+
+    <footer class="footer">
+
+        <h3 class="footer__title title">
+            Какие у вас планы на будущее
+        </h3>
+
+        <div class="footer__box">
+        <div class="footer__desc subtitle">
+            Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы поменяются.
+        </div>
+
+        <div class="footer__choice">
+            <div class="choiсe ">
+                <div class="choice__box-1">
+                    <p>
+                        <label>
+                            <input type="radio" name="input" value="layout">
+                                Верстать
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="radio" name="input" value="manager">
+                                Менеджерство
+                        </label>
+                    </p>
+                </div>
+                <!-- <div class="choice__box">
+                    
+                </div> -->
+                <div class="choice__box-2">
+                    <p>
+                        <label>
+                            <input  checked type="radio" name="input" value="js">
+                                Прокачиваться в JS
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <input type="radio" name="input" value="other">
+                                Другое (уйти в калиграфию, быть как Покрас Лампас)
+                        </label>
+                    </p>
+                <!-- </div>
+                <div class="choice__box">
+                    
+                </div> -->
+
+            </div>
+        </div>
+        </div>  
+
+    </footer>
+
+    <div class="footer__btn">
+        <button class="submit" type="submit">
+            Отправить
+        </button>
+    </div>  
+
+    <script>
+
+    </script>
+</body>
+</html>
