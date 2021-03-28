@@ -1,0 +1,184 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+  
+body {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    max-width: 1023px;
+}
+
+.header {
+    display: block;
+}
+
+.header__logo {
+    margin-top: 30px;
+    display: inline-flex;
+}
+
+title {
+    font-family: 'Monsterrat' sans-serif;
+    font-size: 50px;
+}
+
+.header__title {
+    margin-top: 90px;
+    margin-bottom: 150px;
+    font-size: 50px;
+}
+
+.about__desc {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.about__desc-text {
+    display: flex;
+    width: 390px;
+    margin: 7px 122px 0px 0px;
+}
+
+.subtitle {
+    display: flex;
+    width: 390px;
+    margin: 7px 122px 0px 0px;
+}
+
+input {
+    border: 0px;
+    cursor: pointer;
+}
+
+.info {
+    width: 300px;
+}
+
+.about__info {
+    width: 512px;
+    margin: 5px 0px 38px 0;
+    border-bottom: 3px solid rgb(190, 190, 190);
+}
+
+.about__info:hover {
+    border-bottom: 3px solid rgb(141, 211, 2);
+}
+
+.skills__title {
+    margin-top: 100px;
+    font-size: 21px;
+}
+
+.skills__unit {
+    display: flex;
+}
+
+.item {
+    margin: 10px;
+}
+
+.skills__list {
+    display: flex;
+}
+
+.level__title {
+    margin-top: 120px;
+    font-size: 21px;
+}
+
+.level__slide {
+    margin-top: 70px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.level__desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desc {
+    width: 150px;
+}
+
+.text__title {
+    margin-top: 107px;
+    font-size: 21px;
+}
+
+.text__about {
+    display: flex;
+}
+
+.footer__title {
+    margin-top: 105px;
+    font-size: 21px;
+}
+
+.footer__box {
+    display: flex;
+}
+
+.footer__choice {
+    margin: 0 0 0px 240px;
+}
+
+.choiсe {
+    display: flex;
+}
+
+.choice__box-1 {
+    margin: 0 120px 0 0;
+}
+
+.footer__btn {
+    margin-top: 136px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.submit {
+    width: 127px;
+    height: 35px;
+    margin-left: 128px;
+    border-radius: 20px;
+    color: #4CAF50;
+    background-color: black;
+}
